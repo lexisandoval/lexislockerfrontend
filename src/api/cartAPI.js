@@ -1,5 +1,5 @@
 export const getCart = () => {
-  return fetch("https://lexi-cart.ee-cognizantacademy.com/cart")
+  return fetch("https://lexislockercartservice.herokuapp.com/cart")
     .then(response => response.json())
 }
 
@@ -8,7 +8,7 @@ export const postProduct = (user, product) => {
     user,
     product,
   }
-  return fetch('https://lexi-cart.ee-cognizantacademy.com/cart', {
+  return fetch('https://lexislockercartservice.herokuapp.com/cart', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -23,7 +23,7 @@ export const deleteProduct = (user, product) => {
     user,
     product,
   }
-  return fetch(`https://lexi-cart.ee-cognizantacademy.com/cart/${product.productId}`, {
+  return fetch(`https://lexislockercartservice.herokuapp.com/cart/${product.productId}`, {
     method: 'DELETE',
     headers: {
       'Content-Type': 'application/json'
