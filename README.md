@@ -2,7 +2,7 @@
 
 Lexi's Locker is a React SPA that allows users to "shop" secondhand clothing.
 
-URL: https://main.d390xg60aqq739.amplifyapp.com
+URL: https://lexislocker.netlify.app
 
 ## Installation
 
@@ -17,4 +17,4 @@ The web application will open when you run the command above.
 
 Once open, you may "shop" all Lexi's Locker products.
 
-You may visit the Cart Microservice repository [here](https://github.com/GenC-EESept21/alejandra-sandoval-cart-service) or the Product Microservice repository [here](https://github.com/GenC-EESept21/alejandra-sandoval-product-service).
+You may visit the Cart Microservice repository [here](https://github.com/lexisandoval/lexislockercartservice) or the Product Microservice repository [here](https://github.com/lexisandoval/lexislockerproductservice).
